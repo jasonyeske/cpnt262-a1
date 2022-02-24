@@ -1,10 +1,3 @@
-
-//const
-
-
-
-
-
 const dogPhoto = async function() {
     
     try {
