@@ -31,12 +31,25 @@
         - This way, we can use the "onclick()" command
             - This allows the button so everytime it is pushed, it will replay the function that we created, in this case fetch another random dog from the api, and print it to the screen
 
+
+### Some errors I encountered
+- I wanted to be able to print the breed of the dog to the screen
+    - I was not able to do this
+        - I believe because the site doesn't know itself what its grabbing, its just pulling a random link from its very long array and printing it.
+- I tried using a button tag instead of an input tag
+    - I corrected this so I could use onClick, but maybe there is a way with a normal button tag that I do not know of yet
+- The retrieved data for part 1 of the assignment I was able to get the image url, and the one other property showing that the image was successfully loaded
+    - I wasn't able to get the off-site link because I'm not fully sure what that means
+    - The name or title again because I couldn't get the dog breed without printing the whole url of the dog.
+
+
 ## Attributions
 
-[w3schools .src](https://www.w3schools.com/jsref/prop_script_src.asp)
-[Fetching Asynchronous data](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
-[developer.mozilla throw command](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
-[khaalipaper.com onclick command](https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab1)
-[developer.mozilla fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- [Dog API](https://dog.ceo/dog-api/documentation/)
+- [w3schools .src](https://www.w3schools.com/jsref/prop_script_src.asp)
+- [Fetching Asynchronous data](https://gist.github.com/acidtone/82944dbaa59aef9247833fe79eae3fb2)
+- [developer.mozilla throw command](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+- [khaalipaper.com onclick command](https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab1)
+- [developer.mozilla fetch api](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 
